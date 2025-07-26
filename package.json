@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "saas-with-next.js-and-rbac",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -9,6 +9,8 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@saas/eslint-config": "workspace:*",
+    "@saas/typescript-config": "workspace:*",
     "prettier": "^3.6.2",
     "turbo": "^2.5.5",
     "typescript": "5.8.3"
